@@ -1,0 +1,11 @@
+﻿<Window x:Class="Menu.Options"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Options" Height="499" Width="624" Background="AliceBlue"
+        ResizeMode="NoResize">
+    <Grid Name="panelBack" Margin="0,0,-6,0">
+        <Button HorizontalAlignment="Center"  Name="DevTutorial" Width="110" Height="28" VerticalAlignment="Bottom" Click="DevTutorial_Click" Content="Developer Tutorial" Margin="42,0,472,372"/>
+        <Button x:Name="ResetScore_Copy" Click="window_changeBackground" Margin="42,29,505,422" Content="BackNegro"/>
+
+    </Grid>
+</Window>

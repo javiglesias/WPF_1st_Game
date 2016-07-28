@@ -1,0 +1,9 @@
+﻿<Window x:Class="Menu.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Single player" Height="600" Width="800"
+        Icon="/engranaje.png" ResizeMode="NoResize">
+    <Grid Name="Gride" MouseLeftButtonDown="Gride_MouseRightButtonDown" MouseMove="Gride_MouseMove">
+        <Label Height="100" Width="251" Name="Score" Content="000000" Foreground="Red" FontFamily="Monospace" FontSize="70" FontWeight="Thin" FontStyle="Italic" Margin="10,10,533,465"/>
+    </Grid>
+</Window>

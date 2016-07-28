@@ -1,0 +1,55 @@
+﻿    <Window x:Class="Menu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AsteroidsWPF" Height="600" Width="800"
+        Icon="/engranaje.png" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="MenuBackground.png"/>
+    </Window.Background>
+    <Grid x:Name="LayoutRoot" >
+        <Button x:Name="SinglePlayer" Content="Single Player" HorizontalAlignment="Left" Margin="8,9,0,0" Click="Options_Click" VerticalAlignment="Top" Width="767" RenderTransformOrigin="0.5,0.5" Height="84" Background="#FFEE6C6C" FontFamily="Showcard Gothic" FontSize="26.667">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.114"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Tutorial" HorizontalAlignment="Left" Margin="-2,480,0,0" Click="Tutorial_Click" VerticalAlignment="Top" Width="170" RenderTransformOrigin="0.5,0.5" Height="92" FontFamily="Showcard Gothic" FontSize="26.667" Background="#FF8C81FF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.114"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="WEB" HorizontalAlignment="Left" Click="Web_Click" Margin="327,482,0,-2" VerticalAlignment="Top" Width="210" RenderTransformOrigin="0.452,1.024" Height="93" FontFamily="Showcard Gothic" FontSize="26.667" Background="#FF52FBAE">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.114"/>
+                    <TranslateTransform X="0.088" Y="0.02"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <!--Button Content="Options" HorizontalAlignment="Left" Click="Options_Click" Margin="686,489,-2,-2" VerticalAlignment="Top" Width="108" RenderTransformOrigin="0.5,0.5" Height="86" FontFamily="Showcard Gothic" FontSize="16">
+            <Button.Background>
+                <ImageBrush ImageSource="/engranaje.png"/>
+            </Button.Background>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.114"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button-->
+        <Button Name="VolumeOFF" Content=" OFF" Width="50" Height="50" Margin="633,525,111,0" Click="VolumeOFF_Click"/>
+    </Grid>
+</Window>
